@@ -21,12 +21,32 @@
 </style>
 <body style="background-color: #eee;font-family: 'Ubuntu', sans-serif;">
 
-	<nav class="navbar navbar-light bg-light justify-content-between">
-		<a class="navbar-brand" style="font-family: 'Inconsolata', monospace; font-size: 22px;"><i class="fab fa-youtube text-danger"></i>&nbspYouTube<sup style="font-size: 12px;">IN</sup></a>
-		<form class="form-inline">
-		    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
+	<nav class="navbar row navbar-light bg-light justify-content-between">
+		<div class="col-md-3">
+			<span><i style="font-size: 25px;" class="fas fa-bars"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><a class="navbar-brand" style="font-family: 'Inconsolata', monospace; font-size: 22px;"><i class="fab fa-youtube text-danger"></i>&nbspYouTube<sup style="font-size: 12px;">IN</sup></a>
+		</div>
+
+		<div class="col-md-5">
+			<form class="form-inline row">
+				<input class="form-control col-md-12 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				
+			</form>
+		</div>
+
+		<div class="col-md-2">
+			<form style="margin-left: -15px;" class="form-inline">
+				<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i style="margin:0px 15px;" class="fas fa-search"></i></button>
+			</form>
+		</div>
+
+		<div class="col-md-2 text-muted">
+			<span>&nbsp&nbsp&nbsp&nbsp<i class="fas fa-video"></i></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<span><i class="fas fa-th-list"></i></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<span><i class="fas fa-bell"></i></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<span><img class="rounded-circle" style="height:30px; width:30px;" src="https://yt3.ggpht.com/a/AATXAJyZC3NMvhJxhdVo35t1CstwAxDjdzkv9YTiVHJiNxs=s48-c-k-c0xffffffff-no-rj-mo"></span>
+
+		</div>
+		
 	</nav>
 
 	<div class="container">
